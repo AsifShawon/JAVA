@@ -1,3 +1,5 @@
+//Create a simple Rock, Paper Scissors game in Java. (#Use Conditional Statements)
+
 package com.company;
 
 import java.util.Random; // Here we import "Random" to generate random numbers by computer
