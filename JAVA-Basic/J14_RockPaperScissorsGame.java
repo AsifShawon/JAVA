@@ -67,6 +67,7 @@ public class J14_RockPaperScissorsGame {
             match--;
 }
         if(compWon>userWon) System.out.println("Sorry! Computer won the game!!");
-        else System.out.println("Congratulations! You won the game!!!!");
+        else if(userWon>compWon) System.out.println("Congratulations! You won the game!!!!");
+        else System.out.println("Game Tied :) ");
     }
 }
