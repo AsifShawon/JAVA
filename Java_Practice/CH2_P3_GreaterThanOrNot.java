@@ -5,7 +5,7 @@ the user entered number or not.
 
 package com.company;
 import java.util.Scanner;
-public class Ch2_P3_GreaterThanOrNot {
+public class CH2_P3_GreaterThanOrNot {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Given Number= 10\nEnter your number: ");
