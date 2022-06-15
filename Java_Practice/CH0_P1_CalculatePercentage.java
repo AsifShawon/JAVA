@@ -1,7 +1,7 @@
 package com.company;
 import java.util.Scanner;
 
-public class P1_CalculatePercentage {
+public class CH0_P1_CalculatePercentage {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         float sub1,sub2,sub3,sub4,sub5,sum,per;
