@@ -29,5 +29,9 @@ public class J17_Arrays {
             arr[i] = i*i;
         for(int i=0; i<5; i++)
             System.out.println(arr[i]);
+        
+        //Array Length
+        int arr2[] = {5,10,15,20,25};
+        System.out.println("Array2 Length: "+arr2.length);
     }
 }
