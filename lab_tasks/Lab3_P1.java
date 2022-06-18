@@ -8,7 +8,7 @@ int n = (int)(min+Math.random()*(max-min+1))
 Sample Output:
 
 Random integer: 7
-01234567
+0 1 2 3 4 5 6 7
 
 */
 
