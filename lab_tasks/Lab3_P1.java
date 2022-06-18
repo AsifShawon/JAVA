@@ -14,10 +14,10 @@ Random integer: 7
 
 package lab_tasks;
 import java.util.Scanner;
-import java.util.Random;
+
 public class Lab3_P1 {
     public static void main(String[] args){
-        Random r = new Random();
+
         Scanner sc = new Scanner(System.in);
         System.out.print("Random Integer: ");
         int num = sc.nextInt();
