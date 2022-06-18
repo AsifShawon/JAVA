@@ -6,7 +6,7 @@ Output: 144 136 128 120 112 104
 */
 package lab_tasks;
 
-public class LAb2_P3 {
+public class LAb3_P3 {
     public static void main(String[] args){
         int num = 150;
         while(num!=100){
