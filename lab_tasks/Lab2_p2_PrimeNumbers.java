@@ -7,7 +7,7 @@ package lab_tasks;
 1 and itself only, i.e. 2, 3, 11, 37 etc.
 */
 import java.util.Scanner;
-public class lab2_p2_PrimeNumbers {
+public class Lab2_p2_PrimeNumbers {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         int num,i,prime=0;
