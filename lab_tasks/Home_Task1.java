@@ -54,38 +54,38 @@ public class Home_Task1 {
         System.out.print("Enter fraction1 Numerator and Denominator: ");
         int num1 = sc.nextInt();
         int den1 = sc.nextInt();
-        Fraction f1 = new Fraction();
-        f1.setNumerator(num1);
-        f1.setDenominator(den1);
+        Fraction fraction1 = new Fraction(num1,den1);
         System.out.print("Enter fraction2 Numerator and Denominator: ");
+        Fraction fraction2 = new Fraction();
         int num2 = sc.nextInt();
         int den2 = sc.nextInt();
-        Fraction f2 = new Fraction(num2,den2);
+        fraction2.setNumerator(num2);
+        fraction2.setDenominator(den2);
 
-        Fraction fr = new Fraction();
+        Fraction fraction = new Fraction();
 
         // Addition
-        fr.add(f1,f2);
-        int num = fr.getNumerator();
-        int den = fr.getDenominator();
-        System.out.println(f1+" + "+f2+" = "+num+"/"+den);
+        fraction.add(fraction1,fraction2);
+        int num = fraction.getNumerator();
+        int den = fraction.getDenominator();
+        System.out.println(fraction1+" + "+fraction2+" = "+num+"/"+den);
 
         // Subtraction
-        fr.sub(f1,f2);
-        num = fr.getNumerator();
-        den = fr.getDenominator();
-        System.out.println(f1+" - "+f2+" = "+num+"/"+den);
+        fraction.sub(fraction1,fraction2);
+        num = fraction.getNumerator();
+        den = fraction.getDenominator();
+        System.out.println(fraction1+" - "+fraction2+" = "+num+"/"+den);
 
         // Multiplication
-        fr.mul(f1,f2);
-        num = fr.getNumerator();
-        den = fr.getDenominator();
-        System.out.println(f1+" * "+f2+" = "+num+"/"+den);
+        fraction.mul(fraction1,fraction2);
+        num = fraction.getNumerator();
+        den = fraction.getDenominator();
+        System.out.println(fraction1+" * "+fraction2+" = "+num+"/"+den);
 
         // Division
-        fr.div(f1,f2);;
-        num = fr.getNumerator();
-        den = fr.getDenominator();
-        System.out.println(f1+" / "+f2+" = "+num+"/"+den);
+        fraction.div(fraction1,fraction2);;
+        num = fraction.getNumerator();
+        den = fraction.getDenominator();
+        System.out.println(fraction1+" / "+fraction2+" = "+num+"/"+den);
     }
 }
