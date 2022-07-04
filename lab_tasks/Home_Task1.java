@@ -2,12 +2,14 @@
 
 package lab_tasks;
 import java.util.Scanner;
-import java.lang.Math; //to use math functions
 class Fraction{
     private int numerator,denominator;
-
     Fraction(){
 
+    }
+    Fraction(int numerator, int denominator){
+        this.numerator = numerator;
+        this.denominator = denominator;
     }
     int getNumerator(){
         return numerator;
@@ -58,9 +60,7 @@ public class Home_Task1 {
         System.out.print("Enter fraction2 Numerator and Denominator: ");
         int num2 = sc.nextInt();
         int den2 = sc.nextInt();
-        Fraction f2 = new Fraction();
-        f2.setNumerator(num2);
-        f2.setDenominator(den2);
+        Fraction f2 = new Fraction(num2,den2);
 
         Fraction fr = new Fraction();
 
