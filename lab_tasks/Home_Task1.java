@@ -1,6 +1,4 @@
-// Solution>>>>>>>>>
 
-package lab_tasks;
 import java.util.Scanner;
 class Fraction{
     private int numerator,denominator;
@@ -42,12 +40,11 @@ class Fraction{
         denominator = f1.denominator*f2.numerator;
         numerator = f1.numerator* f2.denominator;
     }
-    public String toString(){
-        return numerator +"/"+ denominator;
-
-    }
+//    public String toString(){
+//
+//    }
 }
-public class Home_Task1 {
+public class Bonus {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
@@ -68,24 +65,24 @@ public class Home_Task1 {
         fraction.add(fraction1,fraction2);
         int num = fraction.getNumerator();
         int den = fraction.getDenominator();
-        System.out.println(fraction1+" + "+fraction2+" = "+num+"/"+den);
+        System.out.println(num1+"/"+den1+" + "+num2+"/"+den2+" = "+num+"/"+den);
 
         // Subtraction
         fraction.sub(fraction1,fraction2);
         num = fraction.getNumerator();
         den = fraction.getDenominator();
-        System.out.println(fraction1+" - "+fraction2+" = "+num+"/"+den);
+        System.out.println(num1+"/"+den1+" - "+num2+"/"+den2+" = "+num+"/"+den);
 
         // Multiplication
         fraction.mul(fraction1,fraction2);
         num = fraction.getNumerator();
         den = fraction.getDenominator();
-        System.out.println(fraction1+" * "+fraction2+" = "+num+"/"+den);
+        System.out.println(num1+"/"+den1+" * "+num2+"/"+den2+" = = "+num+"/"+den);
 
         // Division
         fraction.div(fraction1,fraction2);;
         num = fraction.getNumerator();
         den = fraction.getDenominator();
-        System.out.println(fraction1+" / "+fraction2+" = "+num+"/"+den);
+        System.out.println(num1+"/"+den1+" / "+num2+"/"+den2+" = = "+num+"/"+den);
     }
 }
