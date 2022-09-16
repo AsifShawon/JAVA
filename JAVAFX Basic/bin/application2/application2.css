@@ -1,0 +1,23 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.root{/*to change style of the main class */
+	-fx-background-color: #3dd595;
+}
+
+.button{ /*to style whole "button" class */
+	-fx-position-shape: absolute;
+	-fx-top:50%;
+	-fx-background-color:#1d9fc5;
+	-fx-color: #fff;
+    -fx-border:none; 
+    -fx-border-radius:8px; 
+    -fx-padding:10px;
+    -fx-min-height:20px; 
+    -fx-min-width: 50px;
+    -fx-font-family: "Lucida Console";
+}
+
+.button:hover {
+      -fx-background-color:#1deae0;
+      -fx-transition: 0.7s;
+  }
