@@ -7,11 +7,12 @@ public class Average {
         Scanner sc = new Scanner(System.in);
         String s;
         double sum = 0;
-        int term,num=0;
+        int term,number=0;
         while(true){
             s = sc.next();
             term = 0;
-            if(s.charAt(0)=='q') break;
+            if(s.charAt(0)=='q')
+                break;
             else {
                 for(int i=0; i<s.length(); i++) {
                    term = 10*term +(s.charAt(i) - '0');
@@ -19,8 +20,8 @@ public class Average {
             }
             // System.out.println(term);
             sum += term;
-            ++num;
+            ++number;
         }
-        System.out.println("average: "+sum/num);
+        System.out.println("average: "+sum/number);
     }
 }
