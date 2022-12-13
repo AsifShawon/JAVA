@@ -19,11 +19,11 @@ public class Lab3_P1 {
     public static void main(String[] args){
 
         Scanner sc = new Scanner(System.in);
-        System.out.print("Random Integer: ");
-        int num = sc.nextInt();
-        for(int i=1; i<=num; i++){
         int n = (int)(5+Math.random()*(20-5+1));
-        System.out.print(n+" ");
+        System.out.print("Random Integer: "+n);
+        
+        for(int i=0; i<=n; i++){
+            System.out.print(i+" ");
         }
     }
 }
