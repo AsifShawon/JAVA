@@ -20,7 +20,7 @@ public class Lab3_P1 {
 
         Scanner sc = new Scanner(System.in);
         int n = (int)(5+Math.random()*(20-5+1));
-        System.out.print("Random Integer: "+n);
+        System.out.println("Random Integer: "+n);
         
         for(int i=0; i<=n; i++){
             System.out.print(i+" ");
