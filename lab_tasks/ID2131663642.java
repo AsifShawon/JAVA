@@ -70,7 +70,10 @@ public class ID2131663642 {
         while (run) {
             System.out.print("Choose Account(0/1/2/3)(Enter \"-1\" to exit): ");
             int choice = sc.nextInt();
-            if(choice==-1) run = false;
+            if(choice==-1) {
+                run = false;
+                break;
+            }
             boolean run2 = true;
             while (run2) {
                 System.out.println("1. Deposit");
