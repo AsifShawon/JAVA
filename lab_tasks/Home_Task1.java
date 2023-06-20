@@ -40,9 +40,9 @@ class Fraction{
         denominator = f1.denominator*f2.numerator;
         numerator = f1.numerator* f2.denominator;
     }
-//    public String toString(){
-//
-//    }
+    public String toString(){
+        return numerator+"/"+denominator;
+    }
 }
 public class Bonus {
     public static void main(String[] args){
