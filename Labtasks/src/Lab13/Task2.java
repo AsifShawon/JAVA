@@ -1,0 +1,27 @@
+package Lab13;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class Task2 {
+	public static void main(String[] args) {
+		int a[] = new int[100];
+		Random r = new Random();
+		for(int i=0 ; i<100; i++) {
+			//a[i] = (int) (Math.random() * 10000);
+			a[i] = r.nextInt(0,10000);
+		}
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter index: ");
+		int indx = sc.nextInt();
+		
+		try {
+			System.out.println(a[indx]);
+		}
+		catch(ArrayIndexOutOfBoundsException e) {
+			System.out.println(e.getMessage());
+		}
+		
+	}
+}
