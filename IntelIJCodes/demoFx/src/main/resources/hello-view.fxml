@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.Avatar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.CubicCurve?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="403.0" prefWidth="529.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Avatar layoutX="171.0" layoutY="182.0" radius="50.0">
+         <image>
+            <Image url="@../../../../../../Telegram/IMG20220814171248.jpg" />
+         </image>
+      </Avatar>
+      <CubicCurve controlX1="233.20001220703125" controlX2="-5.9999847412109375" controlY1="-108.40000915527344" controlY2="147.5999755859375" endX="146.79998779296875" endY="162.0" fill="DODGERBLUE" layoutX="21.0" layoutY="157.0" startX="114.79998779296875" startY="-141.99998474121094" stroke="BLACK" />
+   </children>
+</AnchorPane>

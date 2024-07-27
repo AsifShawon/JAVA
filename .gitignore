@@ -1,0 +1,7 @@
+*.zip
+*.jar
+*.rar
+*.tar
+.metadata
+.idea
+*.pdf

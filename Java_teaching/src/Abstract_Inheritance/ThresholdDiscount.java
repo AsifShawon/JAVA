@@ -1,0 +1,32 @@
+package Abstract_Inheritance;
+
+public class ThresholdDiscount implements Discountable{
+    private double threshold, discount;
+
+    public ThresholdDiscount(double threshold, double discount) {
+        this.threshold = threshold;
+        this.discount = discount;
+    }
+
+    public double getDiscount() {
+        return discount;
+    }
+
+    public void setDiscount(double discount) {
+        this.discount = discount;
+    }
+
+    public double getThreshold() {
+        return threshold;
+    }
+
+    public void setThreshold(double threshold) {
+        this.threshold = threshold;
+    }
+
+    @Override
+    public double discountedPrice(double price) {
+        if(price>threshold) return price-discount;
+        else return price;
+    }
+}
