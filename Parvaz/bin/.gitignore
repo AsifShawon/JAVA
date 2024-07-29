@@ -1,0 +1,14 @@
+/Admin.class
+/AvailableExam.class
+/CheckScript.class
+/GiveExam.class
+/LogIn.class
+/Match.class
+/Person.class
+/Question.class
+/SignUp$NotAssingedException.class
+/SignUp$UniqueUserNameException.class
+/SignUp.class
+/Student.class
+/TakeExam.class
+/Teacher.class
